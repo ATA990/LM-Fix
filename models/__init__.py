@@ -1,0 +1,1 @@
+"""LM‑Fix module: polished for GitHub publishing."""

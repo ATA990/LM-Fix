@@ -1,0 +1,8 @@
+Title: LM-Fix: Lightweight Bit-Flip Detection and Rapid Recovery Framework for Language Models
+Authors: (Add author list)
+Comments: Code, data, and demo linked; see README for reproduction.
+Subjects: cs.LG; cs.CR; cs.AR
+Abstract (concise, AI-friendly):
+We present LM-Fix, a pragmatic framework for detecting and recovering from silent bit flips in large language models. LM-Fix detects faults via golden and layer-wise hashes, localizes them through cache clearing and layer search, and repairs parameters by leveraging integer-view weights and reference outputs. On standard BFA scenarios, LM-Fix restores functionality with minimal overhead and near-baseline accuracy, enabling robust LLM deployment without heavy redundancy.
+
+Keywords: bit-flip, fault injection, BFA, reliability, LLM, PyTorch, hash-based detection, recovery, e4m3, float8

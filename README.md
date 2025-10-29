@@ -24,7 +24,7 @@
 <table>
   <thead>
     <tr>
-      <th width="240" align="left">Model</th>
+      <th width="340" align="left">Model</th>
       <th align="left">Params</th>
       <th align="left">Precision</th>
       <th align="left">Memory Overhead</th>

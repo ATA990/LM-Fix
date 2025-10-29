@@ -166,7 +166,7 @@ python -m lmfix.scripts.step4_rotate_repair --model meta-llama/Llama-3.2-3B --ro
   booktitle = {{2025 IEEE 42nd International Conference on Computer Design (ICCD)}},
   year      = {{2025}},
   organization={{IEEE}},
-  author    = {{Ahmad Tahmasivand∗, Noureldin Zahran, Saba Al-Sayouri, Mohammed Fouda, and Khaled N. Khasawneh}},
+  author    = {{Ahmad Tahmasivand, Noureldin Zahran, Saba Al-Sayouri, Mohammed Fouda, and Khaled N. Khasawneh}},
 }}
 ```
 
@@ -175,5 +175,5 @@ python -m lmfix.scripts.step4_rotate_repair --model meta-llama/Llama-3.2-3B --ro
 ## Links
 
 - Paper (ICCD 2025): add DOI/arXiv
-- Docs/Project Page: https://ATA990.github.io/LM-Fix/
+- Docs/Project Page: [https://ATA990.github.io/LM-Fix/](https://github.com/ATA990/LM-Fix)
 - Official Code (Papers with Code): add link after arXiv association

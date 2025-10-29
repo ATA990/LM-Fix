@@ -18,6 +18,9 @@
 - **Low overhead:** ≈ **1%–7.7%** at **TVL=200** across tested models.
 
 ---
+
+## Detection Accuracy (from the paper)
+
 <!-- LM-Fix: Detection Coverage (%) / Performance Overhead (%) across TVL lengths -->
 <table style="width:100%; border-collapse:collapse; font-size:13px;">
   <thead>
@@ -97,16 +100,6 @@
 <p style="font-size:12px;">
 <b>Notes.</b> “Det.” = Detection Coverage; “Perf.” = Performance Overhead. Memory overhead is &lt;1&nbsp;KB for all models.
 </p>
-
-
----
-
-## Detection Accuracy (from the paper)
-
-| Model / Scope              | Precision | TVL | Single‑bit detection | Multi‑bit detection | Runtime overhead | Notes |
-|---                         |---        |---: |---:                   |---:                 |---:              |---|
-| **Across tested models**   | various   | 200 | **>94%**             | **≈100%**           | **~1%–7.7%**     | Paper aggregate |
-| LLaMA‑3.2‑3B               | FP8       | 200 | **>97%**             | **≈100%**           | **~1%–7.7%**     | 500K single‑bit flips evaluated |
 
 *TVL = length of the fixed test vector (in tokens). Longer TVL generally increases detection accuracy with modest overhead.*
 

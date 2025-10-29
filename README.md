@@ -23,6 +23,10 @@
 
 <!-- LM-Fix: Detection Coverage (%) / Performance Overhead (%) across TVL lengths -->
 <table style="width:100%; border-collapse:collapse; font-size:13px;">
+  <colgroup>
+    <col style="width: 200px;">   <!-- Model column -->
+     <!-- the rest can be auto -->
+  </colgroup>
   <thead>
     <tr>
       <th rowspan="2" style="border-bottom:1px solid #ccc; text-align:left; padding:6px;">Model</th>
@@ -56,7 +60,7 @@
   </thead>
   <tbody>
     <tr>
-      <td style="padding:12px;">LLaMa 3.2</td><td>1B</td><td>fp32</td><td>&lt; 1 KB</td>
+      <td style="padding:6px;">LLaMa 3.2</td><td>1B</td><td>fp32</td><td>&lt; 1 KB</td>
       <td>47.6%</td><td>0.5%</td><td>84.4%</td><td>0.8%</td><td>90.6%</td><td>1.5%</td><td>94.2%</td><td>3.5%</td><td>96.6%</td><td>7.7%</td><td>98.2%</td><td>19.7%</td><td>98.9%</td><td>28.9%</td>
     </tr>
     <tr>

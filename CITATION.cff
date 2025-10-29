@@ -3,10 +3,13 @@ message: >-
   If you use LM-Fix, please cite the software and the corresponding ICCAD 2025 paper.
 title: LM-Fix: Lightweight Bit-Flip Detection and Rapid Recovery Framework for Language Models
 authors:
-  - name: "Add your name here"
-  - name: "Add coauthor(s)"
+  - name: "Ahmad Tahmasivand"
+  - name: "Noureldin Zahran"
+  - name: "Saba Al-Sayouri"
+  - name: "Mohammed Fouda"
+  - name: "Khaled N. Khasawneh"
 date-released: 2025-10-22
 version: "0.1.0"
 doi: "10.5281/zenodo.TBD"   # Replace after creating a Zenodo DOI
-repository-code: "https://github.com/YOUR_ORG_OR_USER/LM-Fix"
+repository-code: "https://github.com/ATA990/LM-Fix"
 license: "MIT"

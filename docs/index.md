@@ -20,7 +20,7 @@ Please cite the software and the paper (ICCAD 2025). See `CITATION.cff`.
   "name": "LM-Fix",
   "headline": "Lightweight Bit-Flip Detection and Rapid Recovery Framework for Language Models",
   "url": "https://YOUR_USERNAME.github.io/LM-Fix/",
-  "codeRepository": "https://github.com/YOUR_ORG_OR_USER/LM-Fix",
+  "codeRepository": "https://github.com/ATA990/LM-Fix",
   "license": "https://opensource.org/licenses/MIT",
   "applicationCategory": "AI Security",
   "programmingLanguage": "Python",

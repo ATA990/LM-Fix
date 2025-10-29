@@ -82,7 +82,7 @@ python -m lmfix.scripts.step4_rotate_repair --model meta-llama/Llama-3.2-3B --ro
   title     = {{LM-Fix}: Lightweight Bit-Flip Detection and Rapid Recovery Framework for Language Models},
   booktitle = {{ICCD}},
   year      = {{2025}},
-  author    = {{Add author list}},
+  author    = {{Ahmad Tahmasivand∗, Noureldin Zahran, Saba Al-Sayouri, Mohammed Fouda, and Khaled N. Khasawneh}},
 }}
 ```
 Also include the software citation from `CITATION.cff` (GitHub “Cite this repository”).

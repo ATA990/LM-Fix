@@ -21,93 +21,77 @@
 
 ## Detection Accuracy (from the paper)
 
-<!-- LM-Fix Table: Detection Coverage (%) / Performance Overhead (%) across TVL lengths -->
-<table style="width:100%; border-collapse:collapse; font-size:13px; table-layout:fixed;">
-  <colgroup>
-    <col style="width:420px;"> <!-- Model (wide) -->
-    <col style="width:70px;">  <!-- Params -->
-    <col style="width:70px;">  <!-- Precision -->
-    <col style="width:90px;">  <!-- Mem Overhead -->
-    <!-- 8 TVL groups x 2 cols each = 16 cols; allow auto widths -->
-    <col span="16">
-  </colgroup>
+<table>
   <thead>
     <tr>
-      <th rowspan="2" style="border-bottom:1px solid #ccc; text-align:left; padding:6px; white-space:nowrap;">Model</th>
-      <th rowspan="2" style="border-bottom:1px solid #ccc; text-align:left; padding:6px;">Params</th>
-      <th rowspan="2" style="border-bottom:1px solid #ccc; text-align:left; padding:6px;">Precision</th>
-      <th rowspan="2" style="border-bottom:1px solid #ccc; text-align:left; padding:6px; white-space:nowrap;">Memory Overhead</th>
-      <th colspan="2" style="border-bottom:1px solid #ccc; padding:6px;">TVL = 1</th>
-      <th colspan="2" style="border-bottom:1px solid #ccc; padding:6px;">TVL = 10</th>
-      <th colspan="2" style="border-bottom:1px solid #ccc; padding:6px;">TVL = 40</th>
-      <th colspan="2" style="border-bottom:1px solid #ccc; padding:6px;">TVL = 100</th>
-      <th colspan="2" style="border-bottom:1px solid #ccc; padding:6px;">TVL = 200</th>
-      <th colspan="2" style="border-bottom:1px solid #ccc; padding:6px;">TVL = 600</th>
-      <th colspan="2" style="border-bottom:1px solid #ccc; padding:6px;">TVL = 1000</th>
+      <th width="240" align="left">Model</th>
+      <th align="left">Params</th>
+      <th align="left">Precision</th>
+      <th align="left">Memory Overhead</th>
+      <th colspan="2">TVL = 1</th>
+      <th colspan="2">TVL = 10</th>
+      <th colspan="2">TVL = 40</th>
+      <th colspan="2">TVL = 100</th>
+      <th colspan="2">TVL = 200</th>
+      <th colspan="2">TVL = 600</th>
+      <th colspan="2">TVL = 1000</th>
     </tr>
     <tr>
-      <th style="border-bottom:1px solid #ccc; padding:6px;">Det.</th>
-      <th style="border-bottom:1px solid #ccc; padding:6px;">Perf.</th>
-      <th style="border-bottom:1px solid #ccc; padding:6px;">Det.</th>
-      <th style="border-bottom:1px solid #ccc; padding:6px;">Perf.</th>
-      <th style="border-bottom:1px solid #ccc; padding:6px;">Det.</th>
-      <th style="border-bottom:1px solid #ccc; padding:6px;">Perf.</th>
-      <th style="border-bottom:1px solid #ccc; padding:6px;">Det.</th>
-      <th style="border-bottom:1px solid #ccc; padding:6px;">Perf.</th>
-      <th style="border-bottom:1px solid #ccc; padding:6px;">Det.</th>
-      <th style="border-bottom:1px solid #ccc; padding:6px;">Perf.</th>
-      <th style="border-bottom:1px solid #ccc; padding:6px;">Det.</th>
-      <th style="border-bottom:1px solid #ccc; padding:6px;">Perf.</th>
-      <th style="border-bottom:1px solid #ccc; padding:6px;">Det.</th>
-      <th style="border-bottom:1px solid #ccc; padding:6px;">Perf.</th>
+      <th></th><th></th><th></th><th></th>
+      <th>Det.</th><th>Perf.</th>
+      <th>Det.</th><th>Perf.</th>
+      <th>Det.</th><th>Perf.</th>
+      <th>Det.</th><th>Perf.</th>
+      <th>Det.</th><th>Perf.</th>
+      <th>Det.</th><th>Perf.</th>
+      <th>Det.</th><th>Perf.</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="padding:6px; white-space:nowrap;">LLaMa 3.2</td><td>1B</td><td>fp32</td><td>&lt; 1 KB</td>
+      <td width="240"><nobr>LLaMa 3.2</nobr></td><td>1B</td><td>fp32</td><td>&lt; 1 KB</td>
       <td>47.6%</td><td>0.5%</td><td>84.4%</td><td>0.8%</td><td>90.6%</td><td>1.5%</td><td>94.2%</td><td>3.5%</td><td>96.6%</td><td>7.7%</td><td>98.2%</td><td>19.7%</td><td>98.9%</td><td>28.9%</td>
     </tr>
     <tr>
-      <td style="padding:6px; white-space:nowrap;">LLaMa 3.2</td><td>3B</td><td>fp16</td><td>&lt; 1 KB</td>
+      <td width="240"><nobr>LLaMa 3.2</nobr></td><td>3B</td><td>fp16</td><td>&lt; 1 KB</td>
       <td>25.7%</td><td>0.5%</td><td>73.7%</td><td>0.6%</td><td>85.3%</td><td>0.7%</td><td>91.0%</td><td>1.4%</td><td>95.1%</td><td>2.3%</td><td>97.8%</td><td>5.7%</td><td>98.8%</td><td>9.0%</td>
     </tr>
     <tr>
-      <td style="padding:6px; white-space:nowrap;">LLaMa 3.2</td><td>3B</td><td>fp8</td><td>&lt; 1 KB</td>
+      <td width="240"><nobr>LLaMa 3.2</nobr></td><td>3B</td><td>fp8</td><td>&lt; 1 KB</td>
       <td>28.05%</td><td>0.5%</td><td>68.4%</td><td>0.5%</td><td>88.2%</td><td>0.7%</td><td>93.1%</td><td>1.2%</td><td>98.9%</td><td>2.2%</td><td>98.9%</td><td>5.6%</td><td>99.2%</td><td>9.2%</td>
     </tr>
     <tr>
-      <td style="padding:6px; white-space:nowrap;">Phi-4 mini</td><td>3.5B</td><td>int8</td><td>&lt; 1 KB</td>
+      <td width="240"><nobr>Phi-4 mini</nobr></td><td>3.5B</td><td>int8</td><td>&lt; 1 KB</td>
       <td>34.8%</td><td>0.5%</td><td>96.7%</td><td>0.6%</td><td>99.6%</td><td>0.7%</td><td>99.7%</td><td>0.9%</td><td>99.8%</td><td>1.4%</td><td>99.9%</td><td>2.9%</td><td>99.9%</td><td>4.5%</td>
     </tr>
     <tr>
-      <td style="padding:6px; white-space:nowrap;">Qwen 2</td><td>7B</td><td>bfp16</td><td>&lt; 1 KB</td>
+      <td width="240"><nobr>Qwen 2</nobr></td><td>7B</td><td>bfp16</td><td>&lt; 1 KB</td>
       <td>44.7%</td><td>0.5%</td><td>88.9%</td><td>0.7%</td><td>81.7%</td><td>1.0%</td><td>97.1%</td><td>1.8%</td><td>99.4%</td><td>3.4%</td><td>99.6%</td><td>8.2%</td><td>99.6%</td><td>12.5%</td>
     </tr>
     <tr>
-      <td style="padding:6px; white-space:nowrap;">Mistral 2</td><td>7B</td><td>fp32</td><td>&lt; 1 KB</td>
+      <td width="240"><nobr>Mistral 2</nobr></td><td>7B</td><td>fp32</td><td>&lt; 1 KB</td>
       <td>28.9%</td><td>0.5%</td><td>80.9%</td><td>0.9%</td><td>87.1%</td><td>1.5%</td><td>90.5%</td><td>2.8%</td><td>93.7%</td><td>4.7%</td><td>97.6%</td><td>10.8%</td><td>98.0%</td><td>16.2%</td>
     </tr>
     <tr>
-      <td style="padding:6px; white-space:nowrap;">LLaMa 3.1</td><td>8B</td><td>bfp16</td><td>&lt; 1 KB</td>
+      <td width="240"><nobr>LLaMa 3.1</nobr></td><td>8B</td><td>bfp16</td><td>&lt; 1 KB</td>
       <td>18.9%</td><td>0.5%</td><td>69.1%</td><td>0.6%</td><td>83.7%</td><td>0.9%</td><td>89.6%</td><td>2.2%</td><td>93.6%</td><td>4.0%</td><td>97.0%</td><td>10.7%</td><td>98.1%</td><td>17.0%</td>
     </tr>
     <tr>
-      <td style="padding:6px; white-space:nowrap;">Gemma 2</td><td>9B</td><td>fp16</td><td>&lt; 1 KB</td>
+      <td width="240"><nobr>Gemma 2</nobr></td><td>9B</td><td>fp16</td><td>&lt; 1 KB</td>
       <td>36.1%</td><td>0.5%</td><td>71.4%</td><td>0.6%</td><td>81.5%</td><td>0.8%</td><td>91.6%</td><td>2.2%</td><td>95.7%</td><td>2.4%</td><td>97.4%</td><td>6.5%</td><td>98.8%</td><td>9.2%</td>
     </tr>
     <tr>
-      <td style="padding:6px; white-space:nowrap;">LLaMa 2</td><td>13B</td><td>fp16</td><td>&lt; 1 KB</td>
+      <td width="240"><nobr>LLaMa 2</nobr></td><td>13B</td><td>fp16</td><td>&lt; 1 KB</td>
       <td>24.3%</td><td>0.4%</td><td>67.0%</td><td>0.6%</td><td>81.0%</td><td>0.6%</td><td>84.6%</td><td>0.7%</td><td>91.1%</td><td>1.0%</td><td>96.6%</td><td>2.1%</td><td>97.7%</td><td>3.5%</td>
     </tr>
     <tr>
-      <td style="padding:6px; white-space:nowrap;">QwQ</td><td>30B</td><td>fp8</td><td>&lt; 1 KB</td>
+      <td width="240"><nobr>QwQ</nobr></td><td>30B</td><td>fp8</td><td>&lt; 1 KB</td>
       <td>9.56%</td><td>0.3%</td><td>72.3%</td><td>0.5%</td><td>87.1%</td><td>0.8%</td><td>93.0%</td><td>1.5%</td><td>95.7%</td><td>2.8%</td><td>97.2%</td><td>5.9%</td><td>97.5%</td><td>9.2%</td>
     </tr>
   </tbody>
 </table>
-<p style="font-size:12px;">
-<b>Notes.</b> “Det.” = Detection Coverage; “Perf.” = Performance Overhead. Memory overhead is &lt;1&nbsp;KB for all models.
-</p>
+<p><b>Notes.</b> “Det.” = Detection Coverage; “Perf.” = Performance Overhead. Memory overhead is &lt;1 KB for all models.</p>
+
 
 *TVL = length of the fixed test vector (in tokens). Longer TVL generally increases detection accuracy with modest overhead.*
 

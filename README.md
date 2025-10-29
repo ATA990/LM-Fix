@@ -25,7 +25,7 @@
 <table style="width:100%; border-collapse:collapse; font-size:13px;">
   <thead>
     <tr>
-      <th rowspan="2" style="border-bottom:1px solid #ccc; text-align:left; padding:6px;">Model</th>
+      <th rowspan="4" style="border-bottom:1px solid #ccc; text-align:left; padding:6px;">Model</th>
       <th rowspan="2" style="border-bottom:1px solid #ccc; text-align:left; padding:6px;">Params</th>
       <th rowspan="2" style="border-bottom:1px solid #ccc; text-align:left; padding:6px;">Precision</th>
       <th rowspan="2" style="border-bottom:1px solid #ccc; text-align:left; padding:6px;">Memory<br/>Overhead</th>

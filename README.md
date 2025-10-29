@@ -24,7 +24,7 @@
 <!-- LM-Fix Table: Detection Coverage (%) / Performance Overhead (%) across TVL lengths -->
 <table style="width:100%; border-collapse:collapse; font-size:13px; table-layout:fixed;">
   <colgroup>
-    <col style="width:220px;"> <!-- Model (wide) -->
+    <col style="width:420px;"> <!-- Model (wide) -->
     <col style="width:70px;">  <!-- Params -->
     <col style="width:70px;">  <!-- Precision -->
     <col style="width:90px;">  <!-- Mem Overhead -->
@@ -111,7 +111,6 @@
 
 *TVL = length of the fixed test vector (in tokens). Longer TVL generally increases detection accuracy with modest overhead.*
 
-> If you want a per‑model, per‑TVL breakdown table, add exact rows from your evaluation logs here.
 
 ---
 

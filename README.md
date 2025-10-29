@@ -4,7 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![DOI](https://img.shields.io/badge/DOI-Zenodo_TBD-blue)](https://doi.org/10.5281/zenodo.TBD)
 
-**LM‑Fix** is a lightweight framework that detects **silent bit‑flips** in LLMs and **repairs** them **without retraining**. This repo hosts the reference implementation and scripts to reproduce core results from the ICCD 2025 paper.
+**LM‑Fix** is a lightweight framework that detects **bit‑flips** in Large Language Models (LLMs) parameters and **repairs** them **without retraining or reloading**. This repo hosts the reference implementation and scripts to reproduce core results for LM-Fix.
 
 > **Status:** v0.1.0 (release candidate) — 2025-10-22
 

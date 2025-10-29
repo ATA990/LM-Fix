@@ -1,4 +1,4 @@
-# LM‑Fix — Bit‑Flip Detection & Rapid Recovery for LLMs (ICCD 2025)
+# LM‑Fix — Bit‑Flip Detection & Rapid Recovery for LLMs 
 
 [![CI](https://img.shields.io/github/actions/workflow/status/YOUR_ORG_OR_USER/LM-Fix/ci.yml?branch=main)](https://github.com/YOUR_ORG_OR_USER/LM-Fix/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -169,7 +169,6 @@ python -m lmfix.scripts.step4_rotate_repair --model meta-llama/Llama-3.2-3B --ro
   author    = {{Ahmad Tahmasivand∗, Noureldin Zahran, Saba Al-Sayouri, Mohammed Fouda, and Khaled N. Khasawneh}},
 }}
 ```
-Also include the software citation from `CITATION.cff` (GitHub “Cite this repository”).
 
 ---
 

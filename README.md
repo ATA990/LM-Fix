@@ -17,7 +17,7 @@
 
 ---
 
-## Detection Accuracy (from the paper)
+## Detection Accuracy 
 
 <!-- LM-Fix Table: Detection Coverage (%) / Performance Overhead (%) across TVL lengths -->
 <table style="width:100%; border-collapse:collapse; font-size:13px; table-layout:fixed;">

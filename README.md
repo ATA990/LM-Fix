@@ -1,8 +1,7 @@
 # LM‑Fix — Bit‑Flip Detection & Rapid Recovery for LLMs 
 
-[![CI](https://img.shields.io/github/actions/workflow/status/YOUR_ORG_OR_USER/LM-Fix/ci.yml?branch=main)](https://github.com/YOUR_ORG_OR_USER/LM-Fix/actions)
+[![CI](https://img.shields.io/github/actions/workflow/status/YOUR_ORG_OR_USER/LM-Fix/ci.yml?branch=main)](https://github.com/ata990/LM-Fix/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![DOI](https://img.shields.io/badge/DOI-Zenodo_TBD-blue)](https://doi.org/10.5281/zenodo.TBD)
 
 **LM‑Fix** is a lightweight framework that detects **bit‑flips** in Large Language Models (LLMs) parameters and **repairs** them **without retraining or reloading**. This repo hosts the reference implementation and scripts to reproduce core results for LM-Fix.
 
@@ -174,6 +173,4 @@ python -m lmfix.scripts.step4_rotate_repair --model meta-llama/Llama-3.2-3B --ro
 
 ## Links
 
-- Paper (ICCD 2025): add DOI/arXiv
 - Docs/Project Page: [https://ATA990.github.io/LM-Fix/](https://github.com/ATA990/LM-Fix)
-- Official Code (Papers with Code): add link after arXiv association

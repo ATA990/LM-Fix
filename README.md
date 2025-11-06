@@ -171,5 +171,5 @@ python -m lmfix.scripts.step4_rotate_repair --model meta-llama/Llama-3.2-3B --ro
 ---
 
 ## Links
-- Paper (ICCD 2025): [add DOI/arXiv](https://doi.org/10.48550/arXiv.2511.02866)
+- Paper (ICCD 2025): [arXiv Link](https://doi.org/10.48550/arXiv.2511.02866)
 - Docs/Project Page: [https://ATA990.github.io/LM-Fix/](https://github.com/ATA990/LM-Fix)

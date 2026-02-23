@@ -159,17 +159,18 @@ python -m lmfix.scripts.step4_rotate_repair --model meta-llama/Llama-3.2-3B --ro
 ## Cite
 
 ```bibtex
-@inproceedings{{lmfix_iccd_2025,
-  title     = {{LM-Fix}: Lightweight Bit-Flip Detection and Rapid Recovery Framework for Language Models},
-  booktitle = {{2025 IEEE 42nd International Conference on Computer Design (ICCD)}},
-  year      = {{2025}},
-  organization={{IEEE}},
-  author    = {{Ahmad Tahmasivand, Noureldin Zahran, Saba Al-Sayouri, Mohammed Fouda, and Khaled N. Khasawneh}},
-}}
+@inproceedings{tahmasivand2025lm,
+  title={LM-Fix: Lightweight Bit-Flip Detection and Rapid Recovery Framework for Language Models},
+  author={Tahmasivand, Ahmad and Zahran, Noureldin and Al-Sayouri, Saba and Fouda, Mohammed and Khasawneh, Khaled N},
+  booktitle={2025 IEEE 43rd International Conference on Computer Design (ICCD)},
+  pages={432--440},
+  year={2025},
+  organization={IEEE}
+}
 ```
 
 ---
 
 ## Links
-- Paper (ICCD 2025): [arXiv Link](https://doi.org/10.48550/arXiv.2511.02866)
+- Paper (ICCD 2025): [IEEE Link](https://ieeexplore.ieee.org/document/11311055)
 - Docs/Project Page: [https://ATA990.github.io/LM-Fix/](https://github.com/ATA990/LM-Fix)
